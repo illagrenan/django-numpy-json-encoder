@@ -5,7 +5,7 @@ import numpy as np
 from django.core.serializers.json import DjangoJSONEncoder
 
 
-class NumpyEncoder(DjangoJSONEncoder):
+class NumpyJSONEncoder(DjangoJSONEncoder):
     """
     Credits: https://stackoverflow.com/questions/26646362/numpy-array-is-not-json-serializable
     """
@@ -15,3 +15,6 @@ class NumpyEncoder(DjangoJSONEncoder):
             return o.tolist()
 
         return super().default(o)
+
+
+NumpyEncoder = NumpyJSONEncoder
