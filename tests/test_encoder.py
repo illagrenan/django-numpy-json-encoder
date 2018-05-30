@@ -9,7 +9,7 @@ from django.test import SimpleTestCase
 from django_numpy_json_encoder.numpy_encoder import NumpyJSONEncoder
 
 
-class TodoTestCase(SimpleTestCase):
+class NumpyJSONEncoderSimpleTestCase(SimpleTestCase):
     def test_numpy_array_is_be_encoded_as_json(self):
         numpy_array = np.array([1, 2, 3])
         json_output = json.dumps(numpy_array, cls=NumpyJSONEncoder)
