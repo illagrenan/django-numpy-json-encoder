@@ -18,10 +18,6 @@ Django numpy JSON encoder
     :target: https://coveralls.io/github/illagrenan/django-numpy-json-encoder?branch=master
     :alt: Coverage
 
-.. image:: https://pyup.io/repos/github/illagrenan/django-numpy-json-encoder/shield.svg
-    :target: https://pyup.io/repos/github/illagrenan/django-numpy-json-encoder/
-    :alt: Updates
-
 .. image:: https://img.shields.io/pypi/implementation/django-numpy-json-encoder.svg
     :target: https://pypi.python.org/pypi/django_brotli/
     :alt: Supported Python implementations
