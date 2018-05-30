@@ -7,7 +7,7 @@ from setuptools import setup
 
 setup(
     name='django-numpy-json-encoder',
-    version='0.1.0',
+    version='0.1.1',
     description="""Django JSON encoder with numpy support.""",
     long_description=io.open("README.rst", 'r', encoding="utf-8").read(),
     url='https://github.com/illagrenan/django-numpy-json-encoder',
