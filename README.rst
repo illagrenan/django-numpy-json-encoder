@@ -34,8 +34,6 @@ TODO
 Installation
 ------------
 
-**This software is in alpha version and should not be used in production.**
-
 - Supported Python versions are:  ``3.6`` and ``3.7-dev``.
 - Supported Django versions are: ``2.0``
 
