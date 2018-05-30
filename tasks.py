@@ -20,6 +20,11 @@ def clean(ctx):
 
 
 @task
+def test(ctx):
+    ctx.run("pytest tests/")
+
+
+@task
 def check(ctx):
     """Check setup"""
     ctx.run("python setup.py --no-user-cfg --verbose check --metadata --restructuredtext --strict")
