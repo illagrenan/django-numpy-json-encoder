@@ -1,8 +1,11 @@
 # -*- encoding: utf-8 -*-
 # ! python3
 
+import os
 import shutil
+import sys
 import warnings
+import webbrowser
 
 from invoke import task
 
@@ -22,6 +25,18 @@ def clean(ctx):
 @task
 def test(ctx):
     ctx.run("pytest tests/")
+
+
+@task
+def coverage(ctx):
+    """check code coverage quickly with the default Python"""
+    ctx.run("coverage run --source {PROJECT_NAME} -m py.test".format(PROJECT_NAME=PROJECT_NAME))
+    ctx.run("coverage report -m")
+    ctx.run("coverage html")
+
+    if sys.stdout.isatty():
+        # Running in a real terminal
+        webbrowser.open('file://' + os.path.realpath("htmlcov/index.html"), new=2)
 
 
 @task
