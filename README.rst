@@ -2,31 +2,31 @@
 Django numpy JSON encoder
 =========================
 
-.. image:: https://img.shields.io/pypi/v/django-brotli.svg
-    :target: https://pypi.python.org/pypi/django-brotli
+.. image:: https://img.shields.io/pypi/v/django-numpy-json-encoder.svg
+    :target: https://pypi.python.org/pypi/django-numpy-json-encoder
     :alt: PyPi
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target: https://pypi.python.org/pypi/django-brotli/
+    :target: https://pypi.python.org/pypi/django-numpy-json-encoder/
     :alt: MIT
 
-.. image:: https://img.shields.io/travis/illagrenan/django-brotli.svg
-    :target: https://travis-ci.org/illagrenan/django-brotli
+.. image:: https://img.shields.io/travis/illagrenan/django-numpy-json-encoder.svg
+    :target: https://travis-ci.org/illagrenan/django-numpy-json-encoder
     :alt: TravisCI
 
-.. image:: https://img.shields.io/coveralls/illagrenan/django-brotli.svg
-    :target: https://coveralls.io/github/illagrenan/django-brotli?branch=master
+.. image:: https://img.shields.io/coveralls/illagrenan/django-numpy-json-encoder.svg
+    :target: https://coveralls.io/github/illagrenan/django-numpy-json-encoder?branch=master
     :alt: Coverage
 
-.. image:: https://pyup.io/repos/github/illagrenan/django-brotli/shield.svg
-    :target: https://pyup.io/repos/github/illagrenan/django-brotli/
+.. image:: https://pyup.io/repos/github/illagrenan/django-numpy-json-encoder/shield.svg
+    :target: https://pyup.io/repos/github/illagrenan/django-numpy-json-encoder/
     :alt: Updates
 
-.. image:: https://img.shields.io/pypi/implementation/django-brotli.svg
+.. image:: https://img.shields.io/pypi/implementation/django-numpy-json-encoder.svg
     :target: https://pypi.python.org/pypi/django_brotli/
     :alt: Supported Python implementations
 
-.. image:: https://img.shields.io/pypi/pyversions/django-brotli.svg
+.. image:: https://img.shields.io/pypi/pyversions/django-numpy-json-encoder.svg
     :target: https://pypi.python.org/pypi/django_brotli/
     :alt: Supported Python versions
 
