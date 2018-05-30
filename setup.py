@@ -6,7 +6,7 @@ import io
 from setuptools import setup
 
 setup(
-    name='djang-numpy-json-encoder',
+    name='django-numpy-json-encoder',
     version='0.1.0',
     description="""Middleware that compresses response using brotli algorithm.""",
     long_description=io.open("README.rst", 'r', encoding="utf-8").read(),
