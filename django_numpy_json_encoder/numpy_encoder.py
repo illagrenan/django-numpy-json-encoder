@@ -4,6 +4,8 @@
 import numpy as np
 from django.core.serializers.json import DjangoJSONEncoder
 
+__all__ = ['NumpyJSONEncoder', 'NumpyEncoder']
+
 
 class NumpyJSONEncoder(DjangoJSONEncoder):
     """
