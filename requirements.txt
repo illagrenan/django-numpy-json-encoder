@@ -1,0 +1,15 @@
+# pyup: ignore file
+
+# Requirements required by this package:
+-r requirements_setup.txt
+
+# Requirements needed for development & build & testing
+pytest
+coverage
+coveralls
+wheel
+setuptools
+docutils
+pygments
+invoke
+twine
