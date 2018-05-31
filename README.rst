@@ -29,7 +29,9 @@ Django numpy JSON encoder
 Introduction
 ------------
 
-TODO
+Subclass of standard Django JSON encoder [1]_ that can encode some numpy types (integers, floats and arrays).
+
+.. [1] https://docs.djangoproject.com/en/dev/topics/serialization/#djangojsonencoder
 
 Installation
 ------------
