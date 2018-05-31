@@ -11,6 +11,10 @@ setup(
     description="""Django JSON encoder with numpy support.""",
     long_description=io.open("README.rst", 'r', encoding="utf-8").read(),
     url='https://github.com/illagrenan/django-numpy-json-encoder',
+    project_urls={
+        'Source': 'https://github.com/illagrenan/django-numpy-json-encoder',
+        'Tracker': 'https://github.com/illagrenan/django-numpy-json-encoder/issues',
+    },
     license='MIT',
     author='Vasek Dohnal',
     author_email='vaclav.dohnal@gmail.com',
