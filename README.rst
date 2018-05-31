@@ -59,9 +59,9 @@ Usage
     class ExampleView(View):
         # noinspection PyMethodMayBeStatic
         def post(self, *args, **kwargs):
-            arr = np.random.rand(8, 42).astype(np.float32)
+            numpy_array = np.random.rand(8, 42).astype(np.float32)
 
-            return JsonResponse(data={'array': arr}, encoder=NumpyJSONEncoder, safe=True)
+            return JsonResponse(data={'array': numpy_array}, encoder=NumpyJSONEncoder, safe=True)
 
 License
 -------
