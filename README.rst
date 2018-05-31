@@ -44,8 +44,24 @@ Installation
 Usage
 -----
 
-TODO
+.. code:: python
 
+    # -*- encoding: utf-8 -*-
+    # ! python3
+
+    import numpy as np
+    from django.http import JsonResponse
+    from django.views import View
+
+    from django_numpy_json_encoder.numpy_encoder import NumpyJSONEncoder
+
+
+    class ExampleView(View):
+        # noinspection PyMethodMayBeStatic
+        def post(self, *args, **kwargs):
+            arr = np.random.rand(8, 42).astype(np.float32)
+
+            return JsonResponse(data={'array': arr}, encoder=NumpyJSONEncoder, safe=True)
 
 License
 -------
