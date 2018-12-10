@@ -36,7 +36,7 @@ Subclass of standard Django JSON encoder [1]_ that can encode some numpy types (
 Installation
 ------------
 
-- Supported Python versions are:  ``3.6`` and ``3.7-dev``.
+- Supported Python versions are:  ``3.6``, ``3.7`` and ``3.7-dev``.
 - Supported Django versions are: ``2.0``
 
 .. code:: shell
