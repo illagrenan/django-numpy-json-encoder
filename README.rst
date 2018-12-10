@@ -58,12 +58,14 @@ Usage
     from django_numpy_json_encoder.numpy_encoder import NumpyJSONEncoder
 
 
-    class ExampleView(View):
+    class ExampleNumpyArrayJSONView(View):
         # noinspection PyMethodMayBeStatic
         def post(self, *args, **kwargs):
             numpy_array = np.random.rand(8, 42).astype(np.float32)
 
-            return JsonResponse(data={'array': numpy_array}, encoder=NumpyJSONEncoder, safe=True)
+            return JsonResponse(data={'array': numpy_array},
+                                encoder=NumpyJSONEncoder,
+                                safe=True)
 
 License
 -------
